@@ -239,15 +239,15 @@ CORS_ALLOW_ALL_ORIGINS = True
 # ]
 
 # swagger configs
-SHOW_SWAGGER = config("SHOW_SWAGGER", cast=bool, default=True)
-SWAGGER_SETTINGS = {
-    "USE_SESSION_AUTH": True,
-    "SECURITY_DEFINITIONS": [],
-    "LOGIN_URL": "rest_framework:login",
-    "LOGOUT_URL": "rest_framework:logout",
-    "REFETCH_SCHEMA_ON_LOGOUT": True,
-    "JSON_EDITOR": True,
-}
+# SHOW_SWAGGER = config("SHOW_SWAGGER", cast=bool, default=True)
+# SWAGGER_SETTINGS = {
+#     "USE_SESSION_AUTH": True,
+#     "SECURITY_DEFINITIONS": [],
+#     "LOGIN_URL": "rest_framework:login",
+#     "LOGOUT_URL": "rest_framework:logout",
+#     "REFETCH_SCHEMA_ON_LOGOUT": True,
+#     "JSON_EDITOR": True,
+# }
 
 # simple jwt settings
 
