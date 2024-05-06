@@ -1,6 +1,6 @@
 from django.urls import path
 
-from .views import PatientListAPIView,
+from .views import PatientListAPIView,PrescriptionListAPIView
 
 app_name = 'prescription'
 
