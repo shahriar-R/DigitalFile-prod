@@ -27,8 +27,8 @@ server {
 
 
     # slow connections timeout
-    # client_body_timeout 5s;
-    # client_header_timeout 5s;
+    # client_body_timeout 12s;
+    # client_header_timeout 10s;
 
     # rate limiting
     # limit_req zone=mylimit burst=20 delay=20;
